@@ -1,3 +1,13 @@
 {
-    "type": "module"
+  "type": "module",
+  "name": "tpfinaljsvates",
+  "description": "- **Entrega (Repositorio en github)**: La entrega se realiza a traves de mensajería de plataforma enviando el link al repositorio remoto donde se cargue el código. Se debe aclarar nombre y apellido en el mensaje. La entrega es para el Lunes 7/10.\r ### Primera consigna: Cambios Dinámicos en una Página Web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

@@ -37,17 +37,14 @@ function changeBoxText() {
     for (let i = 0; i < boxes.length; i++) {
         const box = boxes[i];
         if (textIsDefault) {
-            box.textContent = "Nuevo Texto " + (i + 1);
-            console.log("cambia el texto");
-            if (i == 2) {
-                textIsDefault = false;
-            }
+            box.textContent = `Nuevo Texto ${i + 1}`;
         }
         else {
-            box.textContent = "Caja " + (i + 1);
-            if (i == 2) {
-                textIsDefault = true;
-            }
+            box.textContent = `Caja ${i + 1}`;
+        }
+        //Si esta en la ultima caja, cambia el valor de la bandera
+        if (i == boxes.length - 1) {
+            textIsDefault = !textIsDefault;
         }
     }
 }
